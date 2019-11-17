@@ -1,22 +1,71 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Times New Roman','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 
-.App-logo {
-  height: 40vmin;
+.App {
+  text-align: center;
+  background-color: #E7EDDB;
+  min-height: 200vh;
+}
+
+.Text {
+  color: #082760;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: fixed;
+  background: linear-gradient(to bottom, #F9E4A5, #E7EDDB);
+  width: 100vw;
+  height: 90px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #09d3ac;
+.Header-bottun {
+  outline: none;
+  height: 90px;
+  width: 90px;
+  background: 0%;
+  font-size: 20px;
+  border-style: none;
+}
+
+.Header-bottun:hover {
+  text-decoration: underline;
+}
+
+.Content {
+  margin-right: auto;
+  margin-left : auto;
+  padding-top: 90px;
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Content-box {
+  padding-bottom: 1em;
+  background: none;
+  border: solid 3px #89EDD9;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 54px;
+}
+
+.Content-box p {
+  margin: 0;
+  padding: 0;
+}
+
+.Content-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.topic {
+  font-size: 18px;
+  margin-top: 2em;
 }
