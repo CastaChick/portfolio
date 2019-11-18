@@ -5,7 +5,11 @@ body {
 .App {
   text-align: center;
   background-color: #E7EDDB;
-  min-height: 200vh;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
 }
 
 .Text {
@@ -68,4 +72,31 @@ body {
 .topic {
   font-size: 18px;
   margin-top: 2em;
+}
+
+.Link-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.twitter-icon {
+  height: 45px;
+  width: 45px;
+}
+
+.qiita-icon {
+  height: 38px;
+  width: 38px;
+}
+
+.github-icon {
+  height: 45px;
+  width: 45px;
+}
+
+.hatena-icon {
+  height: 45px;
+  width: 45px;
 }

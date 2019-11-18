@@ -2,11 +2,9 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
 import Header from './Header';
-import Contentbox from './Contentbox';
 import About from './About';
-
-const Skills: React.FC = () => <div><p>Skills</p></div>
-const Works: React.FC = () => <div><p>Works</p></div>
+import Skills from './Skills';
+import Works from './Works';
 
 const App: React.FC = () => {
   return (

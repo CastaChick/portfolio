@@ -1,5 +1,9 @@
 import React from 'react';
 import Contentbox from './Contentbox';
+import Twitter from './twitter-square-brands.svg';
+import Qiita from './qiita-favicon.png';
+import Github from './github-square-brands.svg';
+import Hatena from './pen-square-solid.svg';
 
 const Profile: React.FC = () => {
     return (
@@ -43,6 +47,12 @@ const Links: React.FC = () => {
     return (
         <div>
             <h2>Links</h2>
+            <div className="Link-icons">
+                <a href="https://twitter.com/hanama_chem" target="_blank" rel="noopener noreferrer"><img src={Twitter} className="twitter-icon" alt="logo" /></a>
+                <a href="https://qiita.com/hanama_chem" target="_blank" rel="noopener noreferrer"><img src={Qiita} className="qiita-icon" alt="logo" /></a>
+                <a href="https://github.com/CastaChick" target="_blank" rel="noopener noreferrer"><img src={Github} className="github-icon" alt="logo" /></a>
+                <a href="https://casta46.hatenablog.com" target="_blank" rel="noopener noreferrer"><img src={Hatena} className="hatena-icon" alt="logo" /></a>
+            </div>
         </div>
     )
 }

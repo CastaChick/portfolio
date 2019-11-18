@@ -1,5 +1,4 @@
 import React from 'react';
-import { type } from 'os';
 
 type IContent = {
     content: JSX.Element,
