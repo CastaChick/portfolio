@@ -4,7 +4,7 @@ import Contentbox from './Contentbox';
 const Python: React.FC = () => {
     return (
         <div>
-            <h2>Python</h2>
+            <h2>・Python・</h2>
             <div className="topic">
                 <p>2017. 7 -</p>
                 <p>機械学習</p>
@@ -27,7 +27,7 @@ const Python: React.FC = () => {
 const Swift: React.FC = () => {
     return (
         <div>
-            <h2>Swift</h2>
+            <h2>・Swift・</h2>
             <div className="topic">
                 <p>2018. 10 -</p>
                 <p>iOSアプリ開発</p>
@@ -39,7 +39,7 @@ const Swift: React.FC = () => {
 const TypeScript: React.FC = () => {
     return (
         <div>
-            <h2>TypeScript</h2>
+            <h2>・TypeScript・</h2>
             <div className="topic">
                 <p>2019. 11 -</p>
                 <p>フロントエンド開発</p>
@@ -52,7 +52,7 @@ const TypeScript: React.FC = () => {
 const R: React.FC = () => {
     return (
         <div>
-            <h2>R</h2>
+            <h2>・R・</h2>
             <div className="topic">
                 <p>2019. 3 -</p>
                 <p>データ分析</p>
@@ -64,7 +64,7 @@ const R: React.FC = () => {
 const C: React.FC = () => {
     return (
         <div>
-            <h2>C</h2>
+            <h2>・C・</h2>
             <div className="topic">
                 <p>2017. 10 -</p>
                 <p>競技プログラミング</p>
@@ -76,7 +76,7 @@ const C: React.FC = () => {
 const Others: React.FC = () => {
     return (
         <div>
-            <h2>Other tools</h2>
+            <h2>・Other tools・</h2>
             <div className="topic">
                 <p>Docker</p>
                 <p>Git</p>
@@ -92,7 +92,7 @@ const Others: React.FC = () => {
 const Skills: React.FC = () => {
     return (
         <div>
-            <h1>My skills</h1>
+            <h1>・<u>My skills</u>・</h1>
             <Contentbox content={<Python />} />
             <Contentbox content={<Swift />} />
             <Contentbox content={<TypeScript />} />

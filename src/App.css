@@ -2,14 +2,13 @@ body {
   font-family: 'Times New Roman','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 
-h1 {
-  text-decoration: underline;
-}
-
 .App {
   text-align: center;
   background-color: #E7EDDB;
   min-height: 100vh;
+	background-image:
+	 radial-gradient(#feb159 1px, transparent 1px);
+	background-size: 20px 20px;
 }
 
 .App-logo {
@@ -17,12 +16,12 @@ h1 {
 }
 
 .Text {
-  color: #082760;
+  color: #501307;
 }
 
 .App-header {
   position: fixed;
-  background: linear-gradient(to bottom, #F9E4A5, #E7EDDB);
+  background: linear-gradient(to bottom, #fceda4, #E7EDDB);
   width: 100vw;
   height: 90px;
   display: flex;
@@ -47,7 +46,7 @@ h1 {
   margin-right: auto;
   margin-left : auto;
   padding-top: 90px;
-  width: 262px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,11 +55,13 @@ h1 {
 .Content-box {
   padding-bottom: 1em;
   background: none;
-  border: solid 3px #89EDD9;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Content-box p {
@@ -83,6 +84,9 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 262px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .twitter-icon {
@@ -104,3 +108,4 @@ h1 {
   height: 45px;
   width: 45px;
 }
+

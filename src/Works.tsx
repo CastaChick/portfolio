@@ -125,7 +125,7 @@ const MFHack: React.FC = () => {
 const Internship: React.FC = () => {
     return (
         <div>
-            <h2>~Internship~</h2>
+            <h2>・Internship・</h2>
             <Contentbox content={<MF />} />
             <Contentbox content={<LINE />} />
         </div>
@@ -135,7 +135,7 @@ const Internship: React.FC = () => {
 const Parttime: React.FC = () => {
     return (
         <div>
-            <h2>~Part-time job~</h2>
+            <h2>・Part-time job・</h2>
             <Contentbox content={<Aiful />} />
         </div>
     )
@@ -144,7 +144,7 @@ const Parttime: React.FC = () => {
 const Personal: React.FC = () => {
     return (
         <div>
-            <h2>~Personal works~</h2>
+            <h2>・Personal works・</h2>
             <Contentbox content={<Camael />} />
             <Contentbox content={<Portfolio />} />
             <Contentbox content={<DinnerProducer />} />
@@ -156,7 +156,7 @@ const Personal: React.FC = () => {
 const Hackathon: React.FC = () => {
     return (
         <div>
-            <h2>~Hackathon~</h2>
+            <h2>・Hackathon・</h2>
             <Contentbox content={<MFHack />} />
         </div>
     )
@@ -165,7 +165,7 @@ const Hackathon: React.FC = () => {
 const Works: React.FC = () => {
     return (
         <div>
-            <h1>Works & Career</h1>
+            <h1>・<u>Works & Career</u>・</h1>
             <Internship />
             <Parttime />
             <Personal />

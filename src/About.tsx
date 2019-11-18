@@ -27,13 +27,13 @@ const Profile: React.FC = () => {
 const Detail: React.FC = () => {
     return (
         <div>
-            <h2>Like & Hobby</h2>
+            <h2>・Like & Hobby・</h2>
             <div className="topic">
                 <p>ギター</p>
                 <p>歌</p>
                 <p>プログラミング</p>
             </div>
-            <h2>Interested</h2>
+            <h2>・Interested・</h2>
             <div className="topic">
                 <p>機械学習</p>
                 <p>コンテナ技術</p>
@@ -46,7 +46,7 @@ const Detail: React.FC = () => {
 const Links: React.FC = () => {
     return (
         <div>
-            <h2>Links</h2>
+            <h2>・Links・</h2>
             <div className="Link-icons">
                 <a href="https://twitter.com/hanama_chem" target="_blank" rel="noopener noreferrer"><img src={Twitter} className="twitter-icon" alt="logo" /></a>
                 <a href="https://qiita.com/hanama_chem" target="_blank" rel="noopener noreferrer"><img src={Qiita} className="qiita-icon" alt="logo" /></a>
@@ -60,7 +60,7 @@ const Links: React.FC = () => {
 const About: React.FC = () => {
     return (
         <div>
-            <h1>About me</h1>
+            <h1>・<u>About me</u>・</h1>
             <Contentbox content={<Profile />} />
             <Contentbox content={<Detail />} />
             <Contentbox content={<Links />} />
