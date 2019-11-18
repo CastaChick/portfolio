@@ -5,10 +5,12 @@ import Header from './Header';
 import About from './About';
 import Skills from './Skills';
 import Works from './Works';
+import ScrollToTop from './ScrollToTop';
 
 const App: React.FC = () => {
   return (
-    <Router　basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL} >
+      <ScrollToTop />
       <div className="App">
         <header>
           <Header />
